@@ -18,8 +18,8 @@ exports.init = function (callback) {
         function (cb) {
             console.log("\n** 1. open db");
             //var url = local.config.db_config.host_url;
-            MongoClient.connect(url, (err, dbase) => {
-            //MongoClient.connect(process.env.MONGODB_URI, (err, dbase) => {
+            //MongoClient.connect(url, (err, dbase) => {
+            MongoClient.connect(process.env.MONGODB_URI, (err, dbase) => {
                 if (err) return cb(err);
                 console.log("**    Connected to server");
                 db = dbase;
