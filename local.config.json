@@ -1,9 +1,17 @@
 {
     "config" : {
         "db_config": {
-            "host_url": "mongodb://localhost:27017/regis"
+           // "host_url": "mongodb://localhost:27017/regis"
+
+           "host": "ds227322.mlab.com:27322",
+            "user":"regis",
+            "password":"admin1",
+            "database": "heroku_s21g236w",
+            "pooled_connections": 125,
+            "idle_timeout_millis": 30000
         },
 
         "static_content": "../static/"
     }
 }
+
