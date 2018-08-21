@@ -1,0 +1,9 @@
+{
+    "config" : {
+        "db_config": {
+            "host_url": "mongodb://localhost:27017/regis"
+        },
+
+        "static_content": "../static/"
+    }
+}

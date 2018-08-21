@@ -1,0 +1,21 @@
+{
+  "name": "album",
+  "description": "Our Photo Sharing Application with static middleware",
+  "version": "0.0.2",
+  "private": true,
+  "dependencies": {
+    "async": "2.x",
+    "bcrypt": "0.x",
+    "body-parser": "1.x",
+    "express": "^3.0.6",
+    "mongodb": "^2.2.19",
+    "multer": "1.x",
+    "node-uuid": "1.x",
+    "typescript": "^2.0.0",
+    "cloudinary": ""
+  },
+
+  "engines": {
+    "node": "6.x"
+  }
+}
