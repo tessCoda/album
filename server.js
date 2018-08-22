@@ -107,7 +107,7 @@ db.init(function (err, results) {
     }
 
     console.log("Initialisation complete. Running Server.");
-    app.listen(5000);
+    app.listen(process.env.PORT||5000);
 });
 
 
