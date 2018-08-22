@@ -11,10 +11,12 @@
     "mongodb": "^2.2.19",
     "multer": "1.x",
     "node-uuid": "1.x",
-    "typescript": "^2.0.0",
-    "cloudinary": ""
+    "typescript": "^2.0.0"
   },
   "engines": {
     "node": "6.x"
+  },
+  "scripts": {
+    "postinstall": "ng build"
   }
 }
