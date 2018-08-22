@@ -15,8 +15,5 @@
   },
   "engines": {
     "node": "6.x"
-  },
-  "scripts": {
-    "postinstall": "ng build"
   }
 }
